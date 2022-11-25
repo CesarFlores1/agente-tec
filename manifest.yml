@@ -1,0 +1,4 @@
+---
+applications:
+ - name: agentes-toolchain
+   random-route: true
