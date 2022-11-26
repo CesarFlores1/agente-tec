@@ -9,11 +9,11 @@ port = int(os.getenv('PORT', 8000))
 
 @app.route('/')
 def root():
-    return jsonify([{"message":"Hello World from IBM Cloud!"}])
+    return jsonify([{"message":"Demos from IBM Cloud!"}])
 
 @app.route('/agent')
 def agent():
-    return jsonify([{"agent":"Aqui esta el Multi agente de Nacho!"}])
+    return jsonify([{"agent":"Aqui esta el bicho siuuuu!"}])
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port, debug=True)
