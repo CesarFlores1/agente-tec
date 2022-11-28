@@ -1,4 +1,4 @@
 ---
 applications:
- - name: agentes-toolchain
+ - name: toolchain-agente-tec
    random-route: true
