@@ -1,4 +1,4 @@
-#from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify
 #import json, logging, os, atexit
 
 from mesa.visualization.ModularVisualization import ModularServer
