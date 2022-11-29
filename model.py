@@ -197,7 +197,7 @@ class Trafico(Model):
       count = 0
       stringJSON = '{ "TrafficLights":['
       for trafficLight in self.lights:
-        stringJSON += '{ "TrafficLightsId":' + str(trafficLight.u_id) + ', "Luz":' + str(trafficLight.ciclo) + ', "Position":{"x":' + str(trafficLight.pos[0])+', "y": 0, "z":'+ str(trafficLight.pos[1])+ '}}'
+        stringJSON += '{ "TrafficLightsId":' + str(trafficLight.u_id) + ', "Luz":' + str(trafficLight.ciclo) + ', "Position":{"x":' + str(trafficLight.x)+', "y": 0, "z":'+ str(trafficLight.y)+ '}}'
         if count < len(self.lights)-1:
           stringJSON += ","
         count += 1
